@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# secrets / local config
+.env
+.env.*
+*.local
+
+# deps / logs
+node_modules/
+*.log
