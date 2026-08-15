@@ -1,4 +1,5 @@
 # Token 泡泡 (Token Pet) 🐻
+<img width="2448" height="1094" alt="Weixin Image_20260815232827_204_4" src="https://github.com/user-attachments/assets/aebb3c4e-66d1-446d-a071-f844bba98aeb" />
 
 > DeepSeek Harness (DSH) 动态 Cordis 插件 · `dsh-plugin`
 
