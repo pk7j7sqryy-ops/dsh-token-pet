@@ -1,0 +1,8 @@
+# dsh-token-pet bundle patch: mounts the token/weather pet widget.
+# The Loader imports the package's Node entry (lib/index.js → the host `apply`
+# plugin), and dsh-client-modules discovers the package's `dsh.client`
+# declaration, bundles lib/client.js into window.__DSH_BOOT__, and serves it
+# from /plugins/dsh-token-pet/client.js.
+- insert:
+    - id: token-pet
+      name: dsh-token-pet

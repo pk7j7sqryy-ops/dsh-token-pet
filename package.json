@@ -1,0 +1,59 @@
+{
+  "name": "dsh-token-pet",
+  "version": "0.1.0",
+  "description": "卡通用量小部件 Token 泡泡 (Token Pet)：会话头部右上角的「布布」玩偶，实时展示上下文占用 / 会话累计 / 上下文构成，附日期周几、实时天气、3 天预报与极端天气预警，跟随主题色。Cute token-usage pet widget for DeepSeek Harness (DSH).",
+  "license": "MIT",
+  "author": "pk7j7sqryy-ops",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "deepseek",
+    "plugin",
+    "token",
+    "token-usage",
+    "usage",
+    "weather",
+    "forecast",
+    "pet",
+    "widget",
+    "用量",
+    "天气",
+    "插件"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": { "default": "./lib/index.js" },
+    "./client": { "default": "./lib/client.js" },
+    "./package.json": "./package.json"
+  },
+  "homepage": "https://github.com/pk7j7sqryy-ops/dsh-token-pet#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pk7j7sqryy-ops/dsh-token-pet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pk7j7sqryy-ops/dsh-token-pet/issues"
+  },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.0",
+    "react": "^18.2.0"
+  }
+}
