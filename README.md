@@ -67,7 +67,7 @@
 - 在某个会话里能使用 `cordis_define` / `cordis_run` 工具（Cordis 模式，一般默认自带）。
 
 ### 快速安装（动态插件，进程内生效）
-
+直接复制github地址让Ai帮你安装即可，也可以：
 1. 在 DSH 会话里调用 `cordis_define`：
    - `plugin.kind: "new"`，`idPrefix` 填 3–6 位小写字母（如 `tokpet`）；
    - 把 `client.js` 里 `return {` 到结尾的**整个函数体**粘进 `code.client`；
