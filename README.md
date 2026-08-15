@@ -23,7 +23,7 @@
 
 ## 安装
 
-> 💡 直接复制这个仓库的 GitHub 地址（`github:pk7j7sqryy-ops/dsh-token-pet`）发给 AI 助手，让它帮你安装也可以。
+> 💡 直接复制这个仓库的 GitHub 地址（`github:pk7j7sqryy-ops/dsh-token-pet`）发给 AI 助手，让它帮你安装，也可以按照以下方法：
 
 ### 方式 A（推荐）：作为包安装
 
